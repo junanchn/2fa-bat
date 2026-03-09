@@ -19,9 +19,12 @@ Minimal drag-and-drop TOTP authenticator for Windows. Single `.bat` file, no ins
 
 ## How to get your secret key
 
-When enabling 2FA on a service (GitHub, GitLab, etc.), look for the option **"Can't scan the code?"** or **"Enter manually"**. Copy the Base32 key (letters A-Z and digits 2-7, often shown with spaces).
+When enabling 2FA on a service, look for the manual entry option near the QR code:
 
-Save it to a plain text file, e.g. `github-junanchn.txt`.
+- **GitHub**: Settings → Password and authentication → click **"setup key"** below the QR code
+- **GitLab**: Edit profile → Account → Register authenticator → the key is displayed next to the QR code
+
+Copy the Base32 key (letters A-Z and digits 2-7) and save it to a text file, e.g. `github-junanchn.txt`.
 
 ## Requirements
 

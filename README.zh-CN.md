@@ -17,9 +17,12 @@
 
 ## 如何获取密钥
 
-在 GitHub、GitLab 等平台启用两步验证时，找到 **"无法扫描二维码？"** 或 **"手动输入"** 选项，复制 Base32 密钥（A-Z 和 2-7 组成的字符串，可能带空格）。
+启用两步验证时，在二维码附近找到手动输入选项：
 
-将密钥保存为纯文本文件，例如 `github-junanchn.txt`。
+- **GitHub**：Settings → Password and authentication → 在二维码下方点击 **"setup key"**
+- **GitLab**：Edit profile → Account → Register authenticator → 密钥显示在二维码旁边
+
+复制 Base32 密钥（A-Z 和 2-7 组成的字符串），保存到文本文件，例如 `github-junanchn.txt`。
 
 ## 系统要求
 
